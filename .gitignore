@@ -1,0 +1,27 @@
+# Ignore application.properties containing sensitive data
+/src/main/resources/application.properties
+
+# Ignore build files and directories
+/target/
+/.idea/
+/.vscode/
+/*.log
+
+# Ignore dependency directories
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# Ignore IDE-specific files
+*.iml
+*.idea/
+*.vscode/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven wrapper files
+/.mvn/
+/mvnw
+/mvnw.cmd
